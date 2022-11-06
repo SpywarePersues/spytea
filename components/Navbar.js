@@ -8,11 +8,11 @@ export default function Navbar(){
                     <Link href={{pathname: '/'}}><li className="hover:text-gray-100 font-Koho text-3xl">☕ SpyTea</li></Link>
                 </ul>
                 <ul className="lg:flex justify-between w-7/12 mx-auto mt-2">
-                    <Link href={{pathname: '/products'}}><li className="hover:text-gray-400 transition-all duration-300">Posts</li></Link>
-                    <Link href={{pathname: '/new'}}><li className="hover:text-gray-400 transition-all duration-300">Friends</li></Link>
-                    <Link href={{pathname: '/men'}}><li className="hover:text-gray-400 transition-all duration-300">Explore</li></Link>
-                    <Link href={{pathname: '/women'}}><li className="hover:text-gray-400 transition-all duration-300">Extras</li></Link>
-                    <Link href={{pathname: '/unisex'}}><li className="hover:text-gray-400 transition-all duration-300">Login</li></Link>
+                    <Link href={{pathname: '/posts'}}><li className="hover:text-gray-400 transition-all duration-300">Posts</li></Link>
+                    <Link href={{pathname: '/friends'}}><li className="hover:text-gray-400 transition-all duration-300">Friends</li></Link>
+                    <Link href={{pathname: '/explore'}}><li className="hover:text-gray-400 transition-all duration-300">Explore</li></Link>
+                    <Link href={{pathname: '/extras'}}><li className="hover:text-gray-400 transition-all duration-300">Extras</li></Link>
+                    <Link href={{pathname: '/login'}}><li className="hover:text-gray-400 transition-all duration-300">Login</li></Link>
                 </ul>
                 <ul className="mt-2">
                     <Link href={{pathname: '/contact'}}><li className="hover:text-gray-400 transition-all duration-300">Contact Us</li></Link>
